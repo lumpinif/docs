@@ -16,7 +16,7 @@ Placeholders are substituted in the agent's configured text and in webhook tool 
 | Where | Custom variables | System variables |
 |---|---|---|
 | System prompt (`prompt.system_prompt`) | Yes | Yes |
-| First message, fixed text or prompt (`prompt.first_message`, `prompt.first_message_prompt`) | Yes | Yes |
+| First message, fixed text or prompt (`prompt.first_message`, `prompt.first_message_prompt`), and its silent-caller fallback (`prompt.first_message_fallback`) | Yes | Yes |
 | Session [overrides](/agents/deploy/authenticated-sessions#overrides) of those fields (`overrides.system_prompt`, `overrides.first_message`, `overrides.first_message_prompt`) | Yes | Yes |
 | [Warm transfer briefing](/agents/telephony/transfers#customizing-the-briefing) (`conversation.transfer_destinations[].warm_briefing_instructions`) | Yes | Yes |
 | [Fixed transfer announcement](/agents/telephony/transfers#the-transfer-announcement) (`conversation.transfer_destinations[].announcement_message`) | Yes | Yes |
